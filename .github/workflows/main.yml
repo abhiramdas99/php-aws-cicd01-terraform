@@ -30,7 +30,7 @@ jobs:
               role-session-name: Github-OIDC-TERRAFORM
               
         - name: setup terraform
-          uses: hashcorp/setup-terraform@v2
+          uses: hashcorp/setup-terraform@v3
           with:
             terraform_version: latest
             
